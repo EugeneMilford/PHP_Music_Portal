@@ -1,0 +1,396 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1.  Template default CSS
+	1.1	Variables
+	1.2	Mixins
+	1.3	Flexbox
+	1.4	Reset
+2.  Helper Css
+3.  Header Section
+4.  Hero Section
+5.  Services Section
+6.  Track Section
+7.  Countdown Section
+8.  Team Section
+9.  Contact
+10.  Footer Style
+-------------------------------------------------------------------*/
+
+/*----------------------------------------*/
+
+/* Template default CSS
+/*----------------------------------------*/
+
+html,
+body {
+	height: 100%;
+	font-family: "Now Regular";
+	-webkit-font-smoothing: antialiased;
+}
+
+/*---------------------
+  Events
+-----------------------*/
+
+.event {
+	padding-bottom: 60px;
+}
+
+.event .section-title {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.event .section-title:after {
+	position: absolute;
+	right: 46px;
+	top: 25px;
+	height: 2px;
+	width: 775px;
+	background: rgba(225, 225, 225, 0.3);
+	content: "";
+	z-index: -1;
+}
+
+.event__slider .col-lg-4 {
+	max-width: 100%;
+}
+
+.event__slider.owl-carousel .owl-stage-outer {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.event__slider.owl-carousel .owl-nav {
+	position: absolute;
+	right: 15px;
+	top: -50px;
+}
+
+.event__slider.owl-carousel .owl-nav button {
+	font-size: 22px;
+	color: #111111;
+	opacity: 0.5;
+	margin-right: 10px;
+}
+
+.event__slider.owl-carousel .owl-nav button:last-child {
+	margin-right: 0;
+}
+
+.event__item {
+	-webkit-box-shadow: 0px 3px 15px rgba(22, 41, 124, 0.1);
+	box-shadow: 0px 3px 15px rgba(22, 41, 124, 0.1);
+}
+
+.event__item__pic {
+	height: 360px;
+	position: relative;
+}
+
+.event__item__pic .tag-date {
+	position: absolute;
+	left: 0;
+	bottom: -21px;
+	width: 100%;
+	text-align: center;
+}
+
+.event__item__pic .tag-date span {
+	font-size: 15px;
+	color: #ffffff;
+	display: inline-block;
+	background: #5c00ce;
+	padding: 12px 8px 9px 20px;
+}
+
+.event__item__text {
+	text-align: center;
+	padding: 45px 10px 25px;
+}
+
+.event__item__text h4 {
+	font-size: 26px;
+	font-weight: 700;
+	color: #111111;
+	margin-bottom: 10px;
+}
+
+.event__item__text p {
+	color: #888888;
+	margin-bottom: 0;
+}
+
+.event__item__text p i {
+	color: #5c00ce;
+	margin-right: 8px;
+	font-size: 17px;
+}
+
+/*---------------------
+  Track
+-----------------------*/
+
+.track {
+	padding-top: 120px;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+
+.track .section-title {
+	margin-bottom: 105px;
+}
+
+.track__content {
+	height: 502px;
+	overflow-y: auto;
+}
+
+.track__all {
+	text-align: right;
+	margin-bottom: 100px;
+}
+
+.jp-play {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	background: transparent;
+	border: 2px solid #e1e1e1;
+	border-radius: 50%;
+}
+
+.jp-play:after {
+	position: absolute;
+	display: block;
+	left: 17px;
+	top: 12px;
+	width: 16px;
+	height: 20px;
+	background: url(../img/play-default.png);
+	content: "";
+}
+
+.jp-state-playing .jp-play {
+	background: #5c00ce !important;
+	border-color: #5c00ce !important;
+}
+
+.jp-state-playing .jp-play:after {
+	background: url(../img/pause.png) !important;
+	left: 15px;
+	top: 12px;
+}
+
+.jp-audio .jp-play:focus {
+	background: #5c00ce !important;
+	border-color: #5c00ce !important;
+}
+
+.jp-audio .jp-play:focus:after {
+	background: url(../img/play.png);
+}
+
+.jp-seek-bar>div {
+	height: 5px;
+	background: #e1e1e1;
+	cursor: pointer;
+	width: 245px;
+}
+
+.player_bars {
+	width: 350px;
+	display: table;
+	padding-left: 50px;
+	position: relative;
+	padding-top: 25px;
+	float: left;
+	margin-right: 30px;
+}
+
+.jp-play-bar {
+	position: relative;
+	height: 100%;
+	background: #5c00ce;
+	overflow: visible !important;
+}
+
+.jp-current-time {
+	font-size: 15px;
+	color: #111111;
+	position: absolute;
+	left: -50px;
+	top: -9px;
+}
+
+.jp-duration {
+	font-size: 15px;
+	color: #111111;
+	position: absolute;
+	right: 0;
+	top: 16px;
+}
+
+.player_controls_box {
+	width: 50px;
+	float: left;
+	margin-right: 20px;
+}
+
+.jp-mute {
+	font-size: 18px;
+	border: none;
+	background: none;
+	color: #111111;
+	position: absolute;
+	left: 0;
+	top: 13px;
+}
+
+.jp-volume-bar {
+	height: 5px;
+	width: 70px;
+	background: #e1e1e1;
+	cursor: pointer;
+}
+
+.jp-volume-bar-value {
+	background: #5c00ce;
+	height: 100%;
+}
+
+.jp-volume-controls {
+	position: relative;
+	width: 95px;
+	float: left;
+	padding-left: 30px;
+	padding-top: 25px;
+}
+
+.single_player_container {
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.single_player_container:last-child {
+	margin-bottom: 0;
+}
+
+.single_player_container h4 {
+	font-size: 26px;
+	color: #111111;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.track__pic {
+	position: relative;
+	z-index: 1;
+}
+
+.track__pic:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+	content: "";
+	z-index: -1;
+}
+
+.track__pic img {
+	position: relative;
+	top: -50px;
+	width: calc(100% - 40px);
+	margin-left: 40px;
+	height: 502px;
+}
+
+/*---------------------
+  Youtube
+-----------------------*/
+
+.youtube {
+	padding-bottom: 50px;
+}
+
+.youtube .section-title {
+	text-align: center;
+}
+
+.youtube .section-title h1 {
+	font-size: 90px;
+}
+
+.youtube__item {
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+	margin-bottom: 30px;
+}
+
+.youtube__item:hover {
+	-webkit-box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
+	box-shadow: 0px 3px 30px rgba(22, 41, 124, 0.1);
+}
+
+.youtube__item__pic {
+	height: 240px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.youtube__item__pic .play-btn {
+	font-size: 16px;
+	color: #5c00ce;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.3);
+	display: inline-block;
+	line-height: 60px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+.youtube__item__pic .play-btn i {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+.youtube__item__pic .play-btn:after {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	height: 40px;
+	width: 40px;
+	background: #ffffff;
+	border-radius: 50%;
+	content: "";
+	z-index: -1;
+}
+
+.youtube__item__text {
+	padding: 25px 30px 20px 20px;
+	background: #ffffff;
+}
+
+.youtube__item__text h4 {
+	font-size: 26px;
+	color: #111111;
+	line-height: 34px;
+	font-weight: 700;
+}
+
