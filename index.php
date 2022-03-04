@@ -23,13 +23,9 @@
 
 <body>
 
-    <h2>PHP Music Portal</h2>
-    
-    <br>
-
-    <!-- Navbar Section -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-  <a class="navbar-brand" href="#">Music Portal</a>
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">MUSIC PORTAL</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,61 +40,73 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Your Music
+          Explore Your Music
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Your Songs</a>
+          <a class="dropdown-item" href="#">Latest Releases</a>
+          <a class="dropdown-item" href="#">Charts</a>
+          <a class="dropdown-item" href="#">Top Tracks</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact Us</a>
+        <a class="nav-link" href="#">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Music</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search for songs,artists,albums and more!" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
     <!-- End of Navbar Section -->
     
     <!-- Welcome Section -->
-    <div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="images/image-slider-1.jpeg" alt="Los Angeles" width="1100" height="400">
-    </div>
-    <div class="carousel-item">
-        <img src="images/image-slider-2.jpg" alt="Chicago" width="1000" height="400">
-    </div>
-    <div class="carousel-item">
-        <img src="images/image-slider-3.jpeg" alt="New York" width="1000" height="400">
-    </div>
-  </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
     
     <br>
     <!-- Home Section -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+        
+    <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+            <img src="images/slide-1.jpeg" alt="Third slide" style="opacity: 0.7">
+            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                <h1>Text 1</h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide-2.jpg" alt="Third slide" style="opacity: 0.7">
+            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                <h1>Join us on an adventure!</h1>
+                <h4>Explore all your favourite music and artists
+              </h4>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/slide-3.jpeg" alt="Third slide" style="opacity: 0.7">
+            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+                <h1>Text 1</h1>
+            </div>
+        </div>
+    </div>
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        
+</div>
     
     <h3>Home Section</h3>
     
@@ -392,66 +400,70 @@
     </section>
     <!-- Youtube Section End -->
     
-     <!-- Event Section Begin -->
-    <section class="event spad">
-        <div class="container">
-            <div class="row">
+    <br>
+    
+    <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>Artists</h2>
+                        
+                        <h1>Artists</h1>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="event__slider owl-carousel">
-                    <div class="col-lg-4">
-                        <div class="event__item">
-                            <div class="event__item__pic set-bg" data-setbg="img/events/event-1.jpg">
-                                
-                            </div>
-                            <div class="event__item__text">
-                                <h4>David Guetta Miami Ultra</h4>
-                                <p><i class="fa fa-map-marker"></i> Funkhaus Berlin, Berlin, Germany</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="event__item">
-                            <div class="event__item__pic set-bg" data-setbg="img/events/event-2.jpg">
-                                
-                            </div>
-                            <div class="event__item__text">
-                                <h4>David Guetta Miami Ultra</h4>
-                                <p><i class="fa fa-map-marker"></i> Funkhaus Berlin, Berlin, Germany</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="event__item">
-                            <div class="event__item__pic set-bg" data-setbg="img/events/event-3.jpg">
-                                
-                            </div>
-                            <div class="event__item__text">
-                                <h4>David Guetta Miami Ultra</h4>
-                                <p><i class="fa fa-map-marker"></i> Funkhaus Berlin, Berlin, Germany</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="event__item">
-                            <div class="event__item__pic set-bg" data-setbg="img/events/event-2.jpg">
-                                
-                            </div>
-                            <div class="event__item__text">
-                                <h4>David Guetta Miami Ultra</h4>
-                                <p><i class="fa fa-map-marker"></i> Funkhaus Berlin, Berlin, Germany</p>
-                            </div>
-                        </div>
-                    </div>
+    
+     <!-- Event Section Begin -->
+    <div class="row">
+        <div class="col-md-2 offset-md-1">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title 11</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 ">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Event Section End -->
 
     
@@ -484,7 +496,64 @@
             </div>
         </div>
     
+    <br>
+    
     <!-- Music Section -->
+    <h1>Music Section</h1>
+    
+    <div class="row">
+        <div class="col-md-2 offset-md-1">
+            <div class="youtube__item">
+                        <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-2.jpg">
+                            <a href="https://www.youtube.com/watch?v=K4DyBUG242c?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                        </div>
+                        <div class="youtube__item__text">
+                            <h4>Martin Garrix (Full live-set) | SLAM!Koningsdag</h4>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-md-2">
+            <div class="youtube__item">
+                        <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-2.jpg">
+                            <a href="https://www.youtube.com/watch?v=K4DyBUG242c?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                        </div>
+                        <div class="youtube__item__text">
+                            <h4>Martin Garrix (Full live-set) | SLAM!Koningsdag</h4>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-md-2">
+            <div class="youtube__item">
+                        <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-2.jpg">
+                            <a href="https://www.youtube.com/watch?v=K4DyBUG242c?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                        </div>
+                        <div class="youtube__item__text">
+                            <h4>Martin Garrix (Full live-set) | SLAM!Koningsdag</h4>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-md-2">
+            <div class="youtube__item">
+                        <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-2.jpg">
+                            <a href="https://www.youtube.com/watch?v=K4DyBUG242c?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                        </div>
+                        <div class="youtube__item__text">
+                            <h4>Martin Garrix (Full live-set) | SLAM!Koningsdag</h4>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-md-2 ">
+            
+            <div class="youtube__item">
+                        <div class="youtube__item__pic set-bg" data-setbg="img/youtube/youtube-2.jpg">
+                            <a href="https://www.youtube.com/watch?v=K4DyBUG242c?autoplay=1" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                        </div>
+                        <div class="youtube__item__text">
+                            <h4>Martin Garrix (Full live-set) | SLAM!Koningsdag</h4>
+                        </div>
+                    </div>
+        </div>
+    </div>
     
     <br>
     
@@ -584,7 +653,9 @@
     </div>
 
 </section>
-<!--Section: Contact v.2-->
+    <!--Section: Contact v.2-->
+    
+     
 
 </body>
 </html>
