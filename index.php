@@ -36,13 +36,13 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Explore Your Music
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Your Songs</a>
           <a class="dropdown-item" href="#">Latest Releases</a>
           <a class="dropdown-item" href="#">Charts</a>
@@ -50,7 +50,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="#contact">Contact Us</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -66,7 +66,7 @@
     <br>
     <!-- Home Section -->
     
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
         
         <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,7 +77,7 @@
     <div class="carousel-inner text-center">
         <div class="carousel-item active">
             <img src="images/slide-1.jpeg" alt="Third slide" style="opacity: 0.7">
-            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+            <div class="carousel-caption d-md-block ml-auto mr-auto">
                 <h1>Text 1</h1>
             </div>
         </div>
@@ -470,7 +470,7 @@
     <br> 
     
     <!-- About Section -->
-    <div class="container-fluid padding bg-dark text-white">
+    <div class="container-fluid padding bg-dark text-white" id="about">
             <div class="row padding">
                 <div class="col-lg-6">
                     <h2>About the Music Portal...</h2>
