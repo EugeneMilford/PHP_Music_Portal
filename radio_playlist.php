@@ -3,7 +3,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, [
-	CURLOPT_URL => "https://spotify23.p.rapidapi.com/tracks/?ids=4WNcduiCmDNfmTEz7JvmLv",
+	CURLOPT_URL => "https://spotify23.p.rapidapi.com/seed_to_playlist/?uri=spotify%3Aartist%3A2w9zwq3AktTeYYMuhMjju8",
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_FOLLOWLOCATION => true,
 	CURLOPT_ENCODING => "",
