@@ -114,7 +114,7 @@
 			    <nav class="mainmenu_wrapper">
 				<ul class="mainmenu nav sf-menu">
 				    <li class="active">
-					<a href="index.html">Home</a>
+					<a href="index.php">Home</a>
 				    </li>
 
 				    <li>
@@ -132,7 +132,7 @@
 				    </li>
                                     
 				    <li>
-					<a href="#">Artists</a>								
+                                        <a href="artists.php">Artists</a>								
 				    </li>
 									
 				    <li>
@@ -277,7 +277,7 @@
 								- Vera Nazarin
 							</p>
 							<p>
-								Landjaeger flank capicola salami chicken boudin, biltong frankfurter doner ribeye. Ball tip venison bacon hamburger ribeye frankfurter sirlo. Prosciutto sausage tenderloin, pork tri-tip leberkas ham hock andouille porchetta short loin turducken
+								This music portal was created to connect the user through the world of music. Explore all of your favourite tracks, artists, playlists and more. Prosciutto sausage tenderloin, pork tri-tip leberkas ham hock andouille porchetta short loin turducken
 								beef ribs pork chop. Jerky hambur pork belly alcatra ground round. Cupim jerky pork loin corned beef por belly brisket meatloaf.
 							</p>
 							<div class="content-justify vertical-center content-margins topmargin_25">
