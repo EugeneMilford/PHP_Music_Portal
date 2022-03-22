@@ -118,7 +118,7 @@
 				    </li>
 
 				    <li>
-                                        <a href="about.php">About</a>
+					<a href="#about">About</a>
 				    </li>
 
 				    <li>
@@ -163,8 +163,37 @@
 	        </div>
 	    </header>
             
-            <p>Radio Playlist</p>
+            <hr>
+			<h5>About section</h5>
+			<hr>
+
+			<section id="about" class="ls section_padding_top_40 section_padding_bottom_40 table_section table_section_md columns_margin_bottom_30">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-7 col-md-push-5"> <img src="images/" alt=""> </div>
+						<div class="col-md-5 col-md-pull-7">
+							<h2 class="section_header"> <span class="small">About </span> The Music Portal </h2>
+							<hr class="header_divider">
+							<p class="small-text big">
+								"If Music is a Place — then Jazz is the City, Folk is the Wilderness, Rock is the Road, Classical is a Temple."
+								<br>
+								<br>
+								- Vera Nazarin
+							</p>
+							<p>
+                                                            This music portal was created to connect the user through the world of music. Explore all of your favourite tracks, artists, playlists and more.<br><br>
+                                                            Feel free to stay in touch and remember to keep the music flame burning bright!!
+								
+							</p>
+							<div class="content-justify vertical-center content-margins topmargin_25">
+								<a href="about.html" class="theme_button color min_width_button">Read more</a> <span class="divided-content outside-dividers">
+									<span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>								<span><a class="social-icon socicon-google" href="#" title="Google"></a></span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
             
         </body>
         </html>
-

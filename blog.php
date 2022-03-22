@@ -163,8 +163,7 @@
 	        </div>
 	    </header>
             
-            <p>Radio Playlist</p>
+            <p>Blog</p>
             
         </body>
         </html>
-

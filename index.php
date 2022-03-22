@@ -124,10 +124,9 @@
 				    <li>
 					<a href="albums.html">Music</a>
 					<ul>
-					    <li> <a href="albums.html">Artists</a> </li>
-					    <li> <a href="single-album.html">Albums</a> </li>
-					    <li> <a href="single-album.html">Charts</a> </li>
-					    <li> <a href="single-album.html">Playlists</a> </li>
+                                            <li> <a href="albums.php">Albums</a> </li>
+					    <li> <a href="charts.php">Charts</a> </li>
+                                            <li> <a href="playlists.php">Playlists</a> </li>
 					</ul>
 				    </li>
                                     
@@ -136,21 +135,21 @@
 				    </li>
 									
 				    <li>
-					<a href="gallery-regular-3-cols.html">Photos</a>
+                                        <a href="gallery.php">Gallery</a>
 				    </li>
 									
 				    <li>
-					<a href="blog-right.html">Blog</a>
+                                        <a href="blog.php">Blog</a>
 				    </li>
 
 				    <li>
-					<a href="shop-right.html">Playlists</a>
+                                        <a href="playlists.php">Playlists</a>
 				    </li>
 
 				    <li>
 					<a href="shop-right.html">Extras</a>
 					<ul>
-					    <li> <a href="shop-right.html">Radio Playlist</a> </li>
+                                            <li> <a href="radio_playlist.php">Radio Playlist</a> </li>
 				        </ul>
 				    </li>
 				
@@ -165,64 +164,57 @@
 	    </header>
             
 	    <section class="intro_section page_mainslider ds">
-				<div class="flexslider" data-dots="true" data-nav="ture">
-					<ul class="slides">
-						<li>
-							<img src="images/slide01.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInUp">
-													<h2 class="text-uppercase"> Welcome </h2>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="small-text"> Love is my weapon, music is my religion,<br> peace is in my soul.<br><br><h5>Scroll down for more!!</h5> </p>
-												</div>
-
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
-						<li>
-							<img src="images/slide02.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInUp">
-													<h2 class="text-uppercase"> <span class="small">Browse through the <br>catalog of music </h2>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="small-text"> Discover all your favourite tracks, albums<br> and so much more </p>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="topmargin_30">
-														<a href="shop-right.html" class="theme_button inverse min_width_button">
-															Official merch
-														</a>
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
+		<div class="flexslider" data-dots="true" data-nav="ture">
+		    <ul class="slides">
+			<li>
+			    <img src="images/slide01.jpg" alt="">
+			    <div class="container">
+				<div class="row">
+				    <div class="col-sm-12 text-center">
+					<div class="slide_description_wrapper">
+					    <div class="slide_description">
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <h2 class="text-uppercase"> Welcome </h2>
+						</div>
+                                                
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <p class="small-text"> Love is my weapon, music is my religion,<br> peace is in my soul.<br><br><h5>Scroll down for more!!</h5></p>
+						</div>
+					    </div>										
+					</div>									
+                                    </div>								
+				</div>							
+			    </div>				
+			</li>
+                        
+			<li>
+			    <img src="images/slide02.jpg" alt="">
+			    <div class="container">
+				<div class="row">
+				    <div class="col-sm-12 text-center">
+					<div class="slide_description_wrapper">
+					    <div class="slide_description">
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <h2 class="text-uppercase"> <span class="small">Browse through the <br>catalog of music </h2>
+						</div>
+                                                
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <p class="small-text"> Discover all your favourite tracks, albums<br> and so much more </p>
+						</div>
+                                                
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <p class="topmargin_30">
+							<a href="shop-right.html" class="theme_button inverse min_width_button">
+							Official merch
+							</a>
+						    </p>
+						</div>
+					    </div>										
+					</div>									
+				    </div>								
+				</div>							
+			    </div>						
+			</li>
 						<li>
 							<img src="images/slide03.jpg" alt="">
 							<div class="container">
@@ -277,8 +269,9 @@
 								- Vera Nazarin
 							</p>
 							<p>
-								This music portal was created to connect the user through the world of music. Explore all of your favourite tracks, artists, playlists and more. Prosciutto sausage tenderloin, pork tri-tip leberkas ham hock andouille porchetta short loin turducken
-								beef ribs pork chop. Jerky hambur pork belly alcatra ground round. Cupim jerky pork loin corned beef por belly brisket meatloaf.
+                                                            This music portal was created to connect the user through the world of music. Explore all of your favourite tracks, artists, playlists and more.<br><br>
+                                                            Feel free to stay in touch and remember to keep the music flame burning bright!!
+								
 							</p>
 							<div class="content-justify vertical-center content-margins topmargin_25">
 								<a href="about.html" class="theme_button color min_width_button">Read more</a> <span class="divided-content outside-dividers">
