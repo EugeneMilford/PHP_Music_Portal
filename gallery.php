@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-	<title>Crowd</title>
+	<title>Music Portal</title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -432,7 +432,7 @@
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<div class="divided-content bottommargin_5"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>								<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
-							<p class="small-text big-spacing">&copy; Copyright 2017. All Rights Reserved.</p>
+							<p class="small-text big-spacing">&copy; Copyright 2022. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
