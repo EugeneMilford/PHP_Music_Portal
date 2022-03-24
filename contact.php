@@ -125,7 +125,7 @@
 					<a href="albums.html">Music</a>
 					<ul>
                                             <li> <a href="albums.php">Albums</a> </li>
-					    <li> <a href="charts.php">Charts</a> </li>
+					    <li> <a href="tracks.php">Tracks</a> </li>
                                             <li> <a href="playlists.php">Playlists</a> </li>
 					</ul>
 				    </li>

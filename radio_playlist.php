@@ -125,7 +125,7 @@
 					<a href="albums.html">Music</a>
 					<ul>
                                             <li> <a href="albums.php">Albums</a> </li>
-					    <li> <a href="charts.php">Charts</a> </li>
+					    <li> <a href="tracks.php">Tracks</a> </li>
                                             <li> <a href="playlists.php">Playlists</a> </li>
 					</ul>
 				    </li>
@@ -164,6 +164,10 @@
 	    </header>
             
             <p>Radio Playlist</p>
+            
+            <?php include 'data-files/radio_playlist-data.php';?>
+            
+            <br>
             
             <section class="ds page_copyright section_padding_25">
 				<div class="container">

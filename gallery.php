@@ -143,7 +143,7 @@
 					<a href="albums.html">Music</a>
 					<ul>
                                             <li> <a href="albums.php">Albums</a> </li>
-					    <li> <a href="charts.php">Charts</a> </li>
+					    <li> <a href="tracks.php">Tracks</a> </li>
                                             <li> <a href="playlists.php">Playlists</a> </li>
 					</ul>
 				    </li>
@@ -180,26 +180,13 @@
 		    </div>
 	        </div>
 	    </header>
-			
-			<section class="page_breadcrumbs cs gradient section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 text-center text-md-left">
-							<h2 class="small">Gallery Regular 3 columns</h2>
-						</div>
-						<div class="col-md-6 text-center text-md-right">
-							<ol class="breadcrumb">
-								<li> <a href="./">
-							Home
-						</a> </li>
-								<li> <a href="#">Gallery</a> </li>
-								<li class="active">Gallery Regular 3 columns</li>
-							</ol>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="ls page_portfolio section_padding_top_100 section_padding_bottom_100">
+		
+            <p>Artists</p>
+            
+            <br>
+            
+            <p>Album covers</p>
+		<!--  <section class="ls page_portfolio section_padding_top_100 section_padding_bottom_100">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
@@ -350,7 +337,7 @@
 									</div>
 								</div>
 							</div>
-							<!-- eof .isotope_container.row -->
+							
 							<div class="row">
 								<div class="col-sm-12 text-center">
 									<div class="topmargin_30">
@@ -369,64 +356,8 @@
 						</div>
 					</div>
 				</div>
-			</section>
-			<footer class="page_footer ds section_padding_top_100 section_padding_bottom_75">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="cs gradient_bg with_padding big-padding">
-								<div class="row columns_padding_0">
-									<div class="col-md-3 col-sm-4 text-center text-sm-left">
-										<h5 class="margin_0"> <span class="small">Register for</span><br> Our newsletter </h5>
-									</div>
-									<div class="col-md-6 col-sm-4">
-										<div class="widget widget_mailchimp margin_0">
-											<form class="signup" action="./" method="get">
-												<div class="form-group margin_0"> <input class="mailchimp_email form-control" name="email" required="" type="email" placeholder="Email Address"> </div> <button type="submit" class="theme_button color3 no_bg_button">Subscribe now</button>
-												<div class="response"></div>
-											</form>
-										</div>
-									</div>
-									<div class="col-md-3 col-sm-4 text-center text-sm-right">
-										<h5 class="margin_0"> <span class="small">Get the latest</span><br> Crowd's news </h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row topmargin_30">
-						<div class="col-md-4 text-center">
-							<div class="widget widget_text">
-								<h4 class="widget-title"> Our new albums </h4>
-								<ul class="greylinks list-unstyled">
-									<li> <a href="#0">Let's Build a Fire</a> </li>
-									<li> <a href="#0">World's Apart</a> </li>
-									<li> <a href="#0">Shake the Shudder</a> </li>
-									<li> <a href="#0">Life in Other People's Dreams</a> </li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-md-4 text-center">
-							<div class="widget widget_text">
-								<h4 class="widget-title"> Download Avaliable </h4>
-								<p>You can purchase our music albums on iTunes, Google Play, Amazon, Spotify or SoundCloud.</p>
-								<div class="big-icons topmargin_25"> <a href="#" class="social-icon border-icon socicon-apple"></a> <a href="#" class="social-icon border-icon socicon-play"></a> <a href="#" class="social-icon border-icon socicon-amazon"></a> <a href="#" class="social-icon border-icon socicon-spotify"></a>									<a href="#" class="social-icon border-icon socicon-soundcloud"></a> </div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center">
-							<div class="widget widget_text">
-								<h4 class="widget-title"> Contact us </h4>
-								<ul class="list-unstyled greylinks">
-									<li> Some Adress, Some City, CA 47812 </li>
-									<li> 8(800) 723 8269 </li>
-									<li> 8(800) 723 8269 </li>
-									<li> <a href="mailto:thecrowd@example.com">thecrowd@example.com</a> </li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+			</section> -->	
+			
 			<section class="ds page_copyright section_padding_25">
 				<div class="container">
 					<div class="row">

@@ -50,24 +50,6 @@ Navbar Section
   Image slider
 -----------------------*/
 
-.carousel-inner img{
-    width: 70%;
-    height: 70%;
-}
-
-.carousel-caption{
-    display:table-cell;
-  vertical-align:middle
-}
-
-.carousel-item h1 {
-  position: absolute;
-  margin: 0;
-  color: white;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
 
 /*---------------------
   Events

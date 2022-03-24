@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
 </head>
  
 <body>
@@ -125,11 +125,11 @@
 					<a href="albums.html">Music</a>
 					<ul>
                                             <li> <a href="albums.php">Albums</a> </li>
-					    <li> <a href="charts.php">Charts</a> </li>
+					    <li> <a href="tracks.php">Tracks</a> </li>
                                             <li> <a href="playlists.php">Playlists</a> </li>
 					</ul>
 				    </li>
-                                    
+                                     
 				    <li>
                                         <a href="artists.php">Artists</a>								
 				    </li>
@@ -215,37 +215,35 @@
 				</div>							
 			    </div>						
 			</li>
-						<li>
-							<img src="images/slide03.jpg" alt="">
-							<div class="container">
-								<div class="row">
-									<div class="col-sm-12 text-center">
-										<div class="slide_description_wrapper">
-											<div class="slide_description">
-												<div class="intro-layer" data-animation="fadeInUp">
-													<h2 class="text-uppercase"> <span class="small">Check our</span> Featured video </h2>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="small-text"> Music speaks to the heart in ways words annot express.<br> Music, the mosaic of the air. </p>
-												</div>
-												<div class="intro-layer" data-animation="fadeInUp">
-													<p class="topmargin_30">
-														<a href="#featured-video" class="theme_button inverse min_width_button">
-															Whatch now
-														</a>
-													</p>
-												</div>
-											</div>
-											<!-- eof .slide_description -->
-										</div>
-										<!-- eof .slide_description_wrapper -->
-									</div>
-									<!-- eof .col-* -->
-								</div>
-								<!-- eof .row -->
-							</div>
-							<!-- eof .container -->
-						</li>
+                        
+			<li>
+			    <img src="images/slide03.jpg" alt="">
+			    <div class="container">
+				<div class="row">
+			            <div class="col-sm-12 text-center">
+					<div class="slide_description_wrapper">
+					    <div class="slide_description">
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <h2 class="text-uppercase"> <span class="small">Check our</span> Featured video </h2>
+						</div>
+                                                
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <p class="small-text"> Music speaks to the heart in ways words annot express.<br> Music, the mosaic of the air. </p>
+						</div>
+                                                
+						<div class="intro-layer" data-animation="fadeInUp">
+						    <p class="topmargin_30">
+							<a href="#featured-video" class="theme_button inverse min_width_button">
+							   Whatch now
+							</a>
+						    </p>
+						</div>
+					    </div>									
+					</div>								
+			            </div>							
+				</div>							
+			    </div>							
+			</li>
 					</ul>
 				</div>
 				<!-- eof flexslider -->
@@ -701,6 +699,5 @@
 	<!-- Google Map Script -->
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTwYSMRGuTsmfl2z_zZDStYqMlKtrybxo"></script>
 </body>
-
 </html>
 

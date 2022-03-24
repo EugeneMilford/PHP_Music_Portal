@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
+
 <html class="no-js">
 <!--<![endif]-->
 
@@ -181,8 +178,11 @@
 	        </div>
 	    </header>
 	
-                        
-			<section class="page_breadcrumbs cs gradient section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
+            <br>
+            
+            <?php include 'data-files/album-data.php'?>
+            
+		<!--	<section class="page_breadcrumbs cs gradient section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6 text-center text-md-left">
@@ -398,13 +398,12 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 		</div>
 		<!-- eof #box_wrapper -->
-	</div>
-	<!-- eof #canvas -->
-	<script src="js/compressed.js"></script>
-	<script src="js/main.js"></script>
+                </div>
+	
+	
 </body>
 
 </html>
