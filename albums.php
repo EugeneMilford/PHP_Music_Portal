@@ -148,6 +148,10 @@
 				    <li>
                                         <a href="artists.php">Artists</a>								
 				    </li>
+                                    
+                                    <li>
+                                        <a href="videos.php">Music Videos</a>								
+				    </li>
 									
 				    <li>
                                         <a href="gallery.php">Gallery</a>
@@ -164,7 +168,8 @@
 				    <li>
 					<a href="shop-right.html">Extras</a>
 					<ul>
-                                            <li> <a href="radio_playlist.php">Radio Playlist</a> </li>
+                                            <li><a href="trending.php">Trending Music</a></li>
+                                            <li><a href="top_10.php">Top 10 Albums Of All Time</a></li>
 				        </ul>
 				    </li>
 				

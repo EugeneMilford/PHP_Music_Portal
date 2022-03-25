@@ -168,13 +168,15 @@
 	        </div>
 	    </header>
             
-            <p>Tracks</p>
-            
-            <hr> 
-            
-            <?php include 'data-files/tracks-data.php'?>
+            <p>Top 10 Albums of all time</p>
             
             <hr>
+            
+            <?php include 'data-files/top10-data.php'?>
+            
+            <hr>
+            
+            <p>The user is allowed to write a blog about the music portal</p>
             
             <section class="ds page_copyright section_padding_25">
 				<div class="container">
@@ -191,5 +193,3 @@
             
         </body>
         </html>
-
-

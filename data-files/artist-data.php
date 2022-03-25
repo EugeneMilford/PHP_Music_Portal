@@ -2,7 +2,7 @@
 
 $curl = curl_init();
 
-curl_setopt($curl, CURLOPT_URL, "https://spotify23.p.rapidapi.com/artists/?ids=2w9zwq3AktTeYYMuhMjju8");
+curl_setopt($curl, CURLOPT_URL, "https://theaudiodb.p.rapidapi.com/artist.php?i=112024");
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
@@ -12,7 +12,7 @@ curl_setopt($curl, CURLOPT_TIMEOUT, 30);
 curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_1);
 curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "GET");
 curl_setopt($curl, CURLOPT_HTTPHEADER, [
-	"X-RapidAPI-Host: spotify23.p.rapidapi.com",
+	"X-RapidAPI-Host: theaudiodb.p.rapidapi.com",
 	"X-RapidAPI-Key: 2dbc831825msh84a073d47a621bap17f4cfjsn8a5f2a3cea0d"
 	]);
 

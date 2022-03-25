@@ -168,11 +168,11 @@
 	        </div>
 	    </header>
             
-            <p>Tracks</p>
+            <p>Music videos</p>
             
-            <hr> 
+            <hr>
             
-            <?php include 'data-files/tracks-data.php'?>
+            <?php include 'data-files/video-data.php'?>
             
             <hr>
             
@@ -191,5 +191,4 @@
             
         </body>
         </html>
-
 
