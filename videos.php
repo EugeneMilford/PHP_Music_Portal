@@ -176,6 +176,8 @@
             
             <hr>
             
+            <hr>
+            
             <section class="ds page_copyright section_padding_25">
 				<div class="container">
 					<div class="row">

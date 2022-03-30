@@ -187,6 +187,8 @@
             
             <?php include 'data-files/album-data.php'?>
             
+            
+            
 		<!--	<section class="page_breadcrumbs cs gradient section_padding_top_25 section_padding_bottom_25 table_section table_section_md">
 				<div class="container">
 					<div class="row">

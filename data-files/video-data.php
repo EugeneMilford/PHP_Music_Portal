@@ -21,9 +21,12 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
-if ($err) {
-	echo "cURL Error #:" . $err;
-} else {
-	echo $response;
-}
+$videos = json_decode($response, true);
 
+// print_r($videos);
+
+$a = $videos['mvids'][0]['strMusicVid'];
+
+//$vid = base64_encode(file_get_contents($a));
+
+print_r($a);

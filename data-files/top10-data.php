@@ -21,9 +21,35 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
-if ($err) {
-	echo "cURL Error #:" . $err;
-} else {
-	echo $response;
+$top10 = json_decode($response, true);
+
+for ($i = 0; $i < 10; $i++) {  
+echo "<div class='row'>";
+echo "<div class='col-md-5 col-md-pull-7'>";
+echo "<div class='card' style='width: 18rem;'>";
+echo "<img class='card-img-top' src='...' alt='Card image cap'>";
+echo "<div class='card-body'>";
+echo "<p class='card-text'>Test of top 10</p>";
+echo "<p class='card-text'>Num: </p>";
+echo "</div>";
+echo "<ul class='list-group list-group-flush'>";
+echo "<li class='list-group-item'>Artist: ".$top10['loved'][$i]['strArtist']."</li>";
+echo "<li class='list-group-item'>Artist: ".$top10['loved'][$i]['strAlbum']."</li>";
+echo "<li class='list-group-item'>Year Released: ".$top10['loved'][$i]['intYearReleased']."</li>";
+echo "<li class='list-group-item'>Genre: ".$top10['loved'][$i]['strGenre']."</li>";
+echo "<li class='list-group-item'>Sales: ".$top10['loved'][$i]['intSales']."</li>";
+echo "</ul>";
+echo "</div>";
+echo "</div>";
+echo "<div class='col-md-7 col-md-push-5'>";
+echo "<p class='card-text'>Description: </p>";
+echo "<p class='card-text'>".$top10['loved'][$i]['strDescription']."</p>";
+echo "</div>";
+echo "</div>";
+echo "<hr>";
 }
+
+
+
+
 

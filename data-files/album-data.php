@@ -21,8 +21,39 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
-if ($err) {
-	echo "cURL Error #:" . $err;
-} else {
-	echo $response;
+$albums = json_decode($response, true);
+
+print_r($albums);
+
+for($i=0; $i < 20; $i++){
+    echo "<hr>";
+    echo "<p>Album: ".$albums['album'][$i]['strAlbum']."</p>";
+    echo "<p>Artist: ".$albums['album'][$i]['strArtist']."</p>";
+    echo "<p>Year Released: ".$albums['album'][$i]['intYearReleased']."</p>";
+    echo "<hr>";
 }
+
+
+
+
+
+								
+									
+									
+										
+											
+											
+										
+									
+										
+									
+										
+									
+								
+								
+									
+							
+						
+							
+						
+						

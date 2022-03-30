@@ -176,8 +176,6 @@
             
             <hr>
             
-            <p>The user is allowed to write a blog about the music portal</p>
-            
             <section class="ds page_copyright section_padding_25">
 				<div class="container">
 					<div class="row">

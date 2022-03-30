@@ -161,6 +161,10 @@
 				    <li>
 					<a href="#contact">Contacts</a>
 				    </li>
+                                    
+                                    <li>
+                                        <a href="search.php">Search</a>
+				    </li>
 				</ul>
 			    </nav>				
 			</div>

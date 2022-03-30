@@ -21,8 +21,6 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
-if ($err) {
-	echo "cURL Error #:" . $err;
-} else {
-	echo $response;
-}
+$trending = json_decode($response, true);
+
+print_r($trending);
