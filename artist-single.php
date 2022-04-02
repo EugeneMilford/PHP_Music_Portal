@@ -125,7 +125,7 @@
 					<a href="albums.html">Music</a>
 					<ul>
                                             <li> <a href="albums.php">Albums</a> </li>
-					    <li> <a href="tracks.php">Tracks</a> </li>
+                                            <li> <a href="tracks.php">Tracks</a> </li>
                                             <li> <a href="playlists.php">Playlists</a> </li>
 					</ul>
 				    </li>
@@ -168,11 +168,50 @@
 	        </div>
 	    </header>
             
-            <p>Most recent playlists</p>
+            <br>
+            
+            <p>Artist Single</p>
+            
             
             <hr>
             
-            <?php include 'data-files/playlist-data.php'?>
+            			<section class="ls section_padding_top_100 section_padding_bottom_100 columns_padding_25">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="vertical-item content-absolute text-center">
+								<div class="item-media"> <img src="images/team/01.jpg" alt=""> </div>
+								<div class="item-content cs transp_gradient_bg">
+									<h4 class="entry-title bottommargin_0"> Sophia Horton </h4>
+									<p class="small-text">Singer</p>
+									<div class="divided-content darklinks"> <span><a class="social-icon socicon-facebook" href="#" title="Facebook"></a></span> <span><a class="social-icon socicon-twitter" href="#" title="Twitter"></a></span> <span><a class="social-icon socicon-youtube" href="#" title="Youtube"></a></span>										<span><a class="social-icon socicon-google" href="#" title="Google"></a></span> </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<p>Kielbasa pancetta sirloin tail meatball, corned beef doner shoulder cow bacon jerky leberkas. Meatball tail landjaeger, cupim alcatra pancetta biltong frankfurter picanha. Turducken pork loin tail pastrami strip steak. Sausage ground round chuck
+								andouille, pork belly bacon ham hock picanha cow spare ribs meatball frankfurter t-bone salami.</p>
+							<p>Landjaeger burgdoggen bresaola picanha, chuck swine cow frankfurter biltong chicken leberkas brisket sausage flank pig.Brisket frankfurter ham hock sausage strip steak flank ground round ball tip, doner corned beef t-bone cow jowl bacon turkey.</p>
+							<ul class="list2 checklist color2 darklinks">
+								<li> <a href="#">Lorem ipsum dolor sit amet</a> </li>
+								<li> <a href="#">Sint animi non ut sed</a> </li>
+								<li> <a href="#">Eaque blanditiis nemo</a> </li>
+							</ul>
+							<p>Cow frankfurter tri-tip chuck flank jowl cupim chicken picanha turducken pork chop pig. Cupim pork biltong pork chop strip steak, hamburger beef ribs ground round. Cow shoulder meatloaf alcatra, ham pork loin shank jerky burgdoggen meatball cupim
+								kevin prosciutto ground round. </p>
+							
+							<!-- Tab panes -->
+							</div>
+							</div>
+							<!-- eof .tab-content -->
+							
+							
+						</div>
+					
+				
+			</section>
+			
+
             
             <hr>
             

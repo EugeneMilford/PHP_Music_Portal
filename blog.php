@@ -178,6 +178,46 @@
             
             <p>The user is allowed to write a blog about the music portal</p>
             
+            <hr>
+            
+            			<section class="ls columns_padding_25 section_padding_top_75 section_padding_bottom_130">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 to_animate" data-animation="scaleAppear">
+							<h3>Blog Form</h3>
+							<form class="contact-form row columns_padding_5" method="post" action="./">
+								<div class="col-sm-6">
+									<div class="form-group bottommargin_0"> <label for="name">Full Name <span class="required">*</span></label> <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Full Name*"> </div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group bottommargin_0"> <label for="email">Email address<span class="required">*</span></label> <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control" placeholder="Email Address*"> </div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group bottommargin_0"> <label for="phone">Phone Number</label> <input type="text" size="30" value="" name="phone" id="phone" class="form-control" placeholder="Phone Number"> </div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group bottommargin_0"> <label for="subject">Subject</label> <input type="text" size="30" value="" name="subject" id="subject" class="form-control" placeholder="Your Subject"> </div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group bottommargin_0"> <label for="message">Message</label> <textarea aria-required="true" rows="5" cols="45" name="message" id="message" class="form-control" placeholder="Your Message"></textarea> </div>
+								</div>
+								<div class="col-sm-12">
+									<div class="contact-form-submit topmargin_10"> <button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button color min_width_button">Save Entry</button> </div>
+								</div>
+							</form>
+						</div>
+						<!--.col-* -->
+						
+						<!--.col-* -->
+					</div>
+					<!--.row -->
+				</div>
+				<!--.container -->
+			</section>
+
+            
+            <hr>
+            
             <section class="ds page_copyright section_padding_25">
 				<div class="container">
 					<div class="row">

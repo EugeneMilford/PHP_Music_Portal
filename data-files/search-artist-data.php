@@ -1,8 +1,10 @@
 <?php
 
+$name = $_GET["search"];
+
 $curl = curl_init();
 
-curl_setopt($curl, CURLOPT_URL, "https://theaudiodb.p.rapidapi.com/search.php?s=coldplay");
+curl_setopt($curl, CURLOPT_URL, "https://theaudiodb.p.rapidapi.com/search.php?s=$name");
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
@@ -23,5 +25,40 @@ curl_close($curl);
 
 $search = json_decode($response, true);
 
-print_r($search);
+ //print_r($search); 
 
+$img = $search['artists'][0]['strArtistThumb'];
+$imageData = base64_encode(file_get_contents($img));
+
+echo "<section class='ls section_padding_top_150 section_padding_bottom_130 columns_padding_25'>";
+echo "<div class='container'>";
+echo "<div class='row'>";
+echo "<div class='col-sm-7 col-md-8 col-lg-8 col-sm-push-5 col-md-push-4 col-lg-push-4'>";
+
+echo "<article class='post side-item side-md content-padding with_shadow'>";
+echo "<div class='row'>";
+echo "<div class='col-md-5'>";
+echo "<div class='item-media'>";
+echo '<img src="data:image/jpeg;base64,'.$imageData.'" width="200" height="200">';
+echo "<div class='media-links'> <a class='abs-link' title='' href='event-single-left.html'></a> </div>";
+echo "</div>";
+echo "</div>";
+echo "<div class='col-md-7'>";
+echo "<div class='item-content'>";
+echo "<h4 class='entry-title'> <a href='event-single-left.html'>".$search['artists'][0]['strArtist']."</a></h4>";
+echo "<p class='card-text'> Style: ".$search['artists'][0]['strStyle']."</p>";
+echo "<p class='card-text'> Year Released: ".$search['artists'][0]['intFormedYear']."</p>";
+echo "<p class='card-text'>Genre: ".$search['artists'][0]['strGenre']."</p>";
+echo "<div> <a class='theme_button color' href=''>View Description</a></div>";
+echo "</div>";
+echo "</div>";
+echo "</div>";
+echo "</article>";
+
+echo "</div>";
+echo "</div>";
+echo "</div>";
+echo "</section>";
+echo "<hr>";
+
+									

@@ -168,6 +168,13 @@
 	        </div>
 	    </header>
             
+        
+            
+            			
+
+            
+            <hr>
+            
             <p>Top 10 Albums of all time</p>
             
             <hr>

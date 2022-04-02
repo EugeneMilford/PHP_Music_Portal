@@ -172,6 +172,8 @@
             
             <hr>
             
+            <br>
+            
             <?php include 'data-files/trending-data.php'?>
             
             <hr>

@@ -23,31 +23,48 @@ curl_close($curl);
 
 $top10 = json_decode($response, true);
 
+// print_r($top10);
+ 
 for ($i = 0; $i < 10; $i++) {  
+    
+$img = $top10['loved'][$i]['strAlbumThumb'];
+$imageData = base64_encode(file_get_contents($img));
+    
+echo "<section class='ls section_padding_top_150 section_padding_bottom_130 columns_padding_25'>";
+echo "<div class='container'>";
 echo "<div class='row'>";
-echo "<div class='col-md-5 col-md-pull-7'>";
-echo "<div class='card' style='width: 18rem;'>";
-echo "<img class='card-img-top' src='...' alt='Card image cap'>";
-echo "<div class='card-body'>";
-echo "<p class='card-text'>Test of top 10</p>";
-echo "<p class='card-text'>Num: </p>";
-echo "</div>";
-echo "<ul class='list-group list-group-flush'>";
-echo "<li class='list-group-item'>Artist: ".$top10['loved'][$i]['strArtist']."</li>";
-echo "<li class='list-group-item'>Artist: ".$top10['loved'][$i]['strAlbum']."</li>";
-echo "<li class='list-group-item'>Year Released: ".$top10['loved'][$i]['intYearReleased']."</li>";
-echo "<li class='list-group-item'>Genre: ".$top10['loved'][$i]['strGenre']."</li>";
-echo "<li class='list-group-item'>Sales: ".$top10['loved'][$i]['intSales']."</li>";
-echo "</ul>";
+echo "<div class='col-sm-7 col-md-8 col-lg-8 col-sm-push-5 col-md-push-4 col-lg-push-4'>";
+
+echo "<article class='post side-item side-md content-padding with_shadow'>";
+echo "<div class='row'>";
+echo "<div class='col-md-5'>";
+echo "<div class='item-media'>";
+echo '<img src="data:image/jpeg;base64,'.$imageData.'" width="200" height="200">';
+echo "<div class='media-links'> <a class='abs-link' title='' href='event-single-left.html'></a> </div>";
 echo "</div>";
 echo "</div>";
-echo "<div class='col-md-7 col-md-push-5'>";
-echo "<p class='card-text'>Description: </p>";
-echo "<p class='card-text'>".$top10['loved'][$i]['strDescription']."</p>";
+echo "<div class='col-md-7'>";
+echo "<div class='item-content'>";
+echo "<h4 class='entry-title'> <a href='event-single-left.html'>Artist: ".$top10['loved'][$i]['strArtist']."</a></h4>";
+echo "<p class='card-text'> Artist: ".$top10['loved'][$i]['strArtist']."</p>";
+echo "<p class='card-text'> Album: ".$top10['loved'][$i]['strAlbum']."</p>";
+echo "<p class='card-text'> Year Released: ".$top10['loved'][$i]['intYearReleased']."</p>";
+echo "<p class='card-text'>Genre: ".$top10['loved'][$i]['strGenre']."</p>";
+echo "<p class='card-text'>Sales: ".$top10['loved'][$i]['intSales']."</p>";
+echo "<div> <a class='theme_button color' href=''>View Description</a></div>";
 echo "</div>";
 echo "</div>";
+echo "</div>";
+echo "</article>";
+
+echo "</div>";
+echo "</div>";
+echo "</div>";
+echo "</section>";
 echo "<hr>";
 }
+
+
 
 
 

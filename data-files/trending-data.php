@@ -24,3 +24,15 @@ curl_close($curl);
 $trending = json_decode($response, true);
 
 print_r($trending);
+
+echo "<hr>";
+
+for($i=0; $i < 5; $i++){
+echo "<p>Track: ".$trending['trending'][$i]['strTrack']."</p>";
+echo "<p>Artist: ".$trending['trending'][$i]['strArtist']."</p>";
+echo "<p>Album: ".$trending['trending'][$i]['strAlbum']."</p>";
+echo "<p>Date: ".$trending['trending'][$i]['dateAdded']."</p>";
+echo "<hr>";
+}
+
+    
